@@ -104,7 +104,7 @@ end
 ```
 
 ### Laço de repetição While
-+ o laço é executado enquanto for verdadeiro
++ o laço é executado enquanto a condicional for verdadeira
 ```
 var = 3
 while var >= 0 do
@@ -112,3 +112,14 @@ while var >= 0 do
   var = var - 1
 end
 ```
+
++ semelhante ao do-while em C, onde existe um laço de de repetição antes do condicional de parada
+```
+var = 3
+repeat
+  var = var - 1
+until (var == 0)
+print(var)
+```
+
++ a linguagem de programação *Lua* não possui laços de repetição `for`
