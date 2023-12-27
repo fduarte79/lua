@@ -33,4 +33,8 @@ EAEA9B07E6
 + Local: quando declarada dentro de um bloco
 + Global: não precisa ser declarada
 
-  
+### Atribuição
+
++ Normal: `var_a = 3`  
++ Múltipla: `var_a, var_b = 'Teste',  3.131415`
++ Normal:normaNormal
