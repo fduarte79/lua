@@ -62,7 +62,7 @@ Múltipla: `var_a, var_b = 'Teste',  3.131415`
 ### Condicional
 Se falso, retorna *nil*
 
-**if**:  
+**if**  
 ```
 var = 1
 if var > 0 then
