@@ -1,7 +1,5 @@
 # Programação LUA
 
-EAEA9B07E6
-
 # Programação LUA
 
 ### Introduação
