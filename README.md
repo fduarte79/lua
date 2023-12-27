@@ -16,7 +16,7 @@ EAEA9B07E6
 ### Tipos de Dados
 + **nill**: nulo
 + number: numérico (inteiro ou real)
-+ string: caractere
++ string: cadeia de caracteres
 + function: função
 + userdata
 + table
@@ -47,3 +47,14 @@ Múltipla: `var_a, var_b = 'Teste',  3.131415`
 `<=`: menor que  
 `>=`: maior que  
 `==`: igual  
+`~=`: diferente
+
+### Operadores Lógicos  
+`and`: e  
+`or`: ou  
+`not`: negação  
+
+### Aplicação dos Operadores 
+`..`: operador de concatenação para strings
+`<`, `<=`, `>`, `>=`: números e strings
+`~=`, `==`: compara número e string e retorna *nil* se falso, *1* se verdadeiro
