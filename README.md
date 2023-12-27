@@ -30,11 +30,25 @@ EAEA9B07E6
 
 ### Escopo de variáveis
 
-+ Local: quando declarada dentro de um bloco
-+ Global: não precisa ser declarada
+Local: quando declarada dentro de um bloco  
+Global: não precisa ser declarada  
 
 ### Atribuição
 
-+ Normal: `var_a = 3`  
-+ Múltipla: `var_a, var_b = 'Teste',  3.131415`
-+ Normal:normaNormal
+Normal: `var_a = 3`  
+Múltipla: `var_a, var_b = 'Teste',  3.131415`  
+
+### Operadores Aritméticos
+
+ `+`: soma  
+`-`: subtração  
+`*`: multiplicação  
+`/`: divisão  
+`-valor`: operador unário negativo  
+
+### Operadores Relacionais
+`<`: menor que  
+`>`: maior que  
+`<=`: menor que  
+`>=`: maior que  
+`==`: igual  
