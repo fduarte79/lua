@@ -60,7 +60,8 @@ Múltipla: `var_a, var_b = 'Teste',  3.131415`
 `~=`, `==`: compara número e string e retorna *nil* se falso, *1* se verdadeiro  
 
 ### Condicional
-Se falso, retorna *nil*
++ Se o condicional for verdadeiro, a cláusula é executada;
++ Se o condicional for falso, a cláusula não é executada e retorna *nil*.
 
 **if**  
 ```
@@ -99,5 +100,15 @@ elseif var < 1 then
   print('B')
 else
   print('C')
+end
+```
+
+### Laço de repetição While
++ o laço é executado enquanto for verdadeiro
+```
+var = 3
+while var >= 0 do
+  print(var)
+  var = var - 1
 end
 ```
