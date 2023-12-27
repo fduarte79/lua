@@ -55,6 +55,24 @@ Múltipla: `var_a, var_b = 'Teste',  3.131415`
 `not`: negação  
 
 ### Aplicação dos Operadores 
-`..`: operador de concatenação para strings
-`<`, `<=`, `>`, `>=`: números e strings
-`~=`, `==`: compara número e string e retorna *nil* se falso, *1* se verdadeiro
+`..`: operador de concatenação para strings  
+`<`, `<=`, `>`, `>=`: números e strings  
+`~=`, `==`: compara número e string e retorna *nil* se falso, *1* se verdadeiro  
+
+### Condicional
+Se falso, retorna *nil*
+
+**if**:  
+`> if 1 > 2 then`
+`>>   print(0)`
+`>> end` 
+
+
+**if-else**  
+`> if 1 > 2 then`
+`>> print(0)`
+`>> else`
+`>> print(1)`
+`>> end`
+`1`
+
