@@ -123,3 +123,5 @@ print(var)
 ```
 
 + a linguagem de programação *Lua* não possui laços de repetição `for`
+
+### Tabelas
