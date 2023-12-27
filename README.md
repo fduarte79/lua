@@ -1,7 +1,5 @@
 # Programação LUA
 
-# Programação LUA
-
 ### Introduação
 + Linguagem de script;
 + mas pode ser executado no modo interativo;
