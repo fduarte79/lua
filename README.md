@@ -64,17 +64,33 @@ Se falso, retorna *nil*
 
 **if**:  
 ```
-if 1 < 2 then
-  print('ok')
+var = 1
+if var > 0 then
+  print('A')
 end
 ```
 
-**if-else**  
+**if-else**
+```
+var = 1
+if var < 0 then
+  print('A')
+else
+  print('B')
+end
 ```
 
+**if-elseif**  
+```
+var = 1
+if var < 0 then
+  print('A')
+elseif var > 0 then
+  print('B')
+end
 ```
 
-***if-elseif-else**
+**if-elseif-else**
 ```
 var = 1
 if var < 0 then
