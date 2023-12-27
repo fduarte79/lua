@@ -5,7 +5,6 @@ EAEA9B07E6
 # Programação LUA
 
 ### Introduação
-
 + Linguagem de script;
 + mas pode ser executado no modo interativo;
 + execução: lua arquivo.lua;
@@ -15,7 +14,6 @@ EAEA9B07E6
 + comentários: --
 
 ### Tipos de Dados
-
 + **nill**: nulo
 + number: numérico (inteiro ou real)
 + string: caractere
@@ -29,18 +27,15 @@ EAEA9B07E6
 + table: tabela
 
 ### Escopo de variáveis
-
 Local: quando declarada dentro de um bloco  
 Global: não precisa ser declarada  
 
 ### Atribuição
-
 Normal: `var_a = 3`  
 Múltipla: `var_a, var_b = 'Teste',  3.131415`  
 
 ### Operadores Aritméticos
-
- `+`: soma  
+`+`: soma  
 `-`: subtração  
 `*`: multiplicação  
 `/`: divisão  
