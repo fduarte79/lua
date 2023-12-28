@@ -131,20 +131,29 @@ print(var)
 + devem ser criadas antes de serem utilizadas;
 + os elementos são separados por virgulas;
 + o primeiro elemento possui índice 1;
++ o elemento é acessado por meio do seu índice entre colchetes;
 + criando uma tabela vazia: `tabela_1 = {}`
++ para limpar uma tabela, basta atribuir o valor *nil*
 
 ```
-> tabela_1 = {1, 3.1141516, 'A', "Lua"}
-> tabela_1
+> tab_1 = {1, 3.1141516, 'A', "Lua"}
+> tab_1
 table: 0x55c0c1e2c680
-> tabela_1[1]
+> tab_1[1]
 1
-> tabela_1[2]
+> tab_1[2]
 3.1141516
-> tabela_1[3]
+> tab_1[3]
 A
-> tabela_1[4]
+> tab_1[4]
 Lua
-> tabela_1[5]
+> tab_1[5]
 nil
+```
+```
+> tab_2 = {t1 = 4, t2 = 5}
+> tab_2.t1
+4
+> tab_2.t2
+5
 ```
