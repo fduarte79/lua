@@ -219,3 +219,7 @@ exibe(s)
 ### Bibliotecas - Manipulação de Strings
 
 ### Bibliotecas - Funções Matemáticas
+
+# Referências
++ [Manual de Referência de Lua 5.1](https://www.lua.org/manual/5.1/pt/manual.html)
++ [Lua 5.4 Reference Manual ](https://www.lua.org/manual/5.4/)
