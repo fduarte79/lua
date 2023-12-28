@@ -121,3 +121,30 @@ print(var)
 + a linguagem de programação *Lua* não possui laços de repetição `for`
 
 ### Tabelas
+
+### Tabelas
+
++ implementam vetores associativos;
++ valores de todos tipos exceto, *nil*;
++ principal estrutura de dados da Lua;
++ a variável contém um ponteiro para o endereço da tabela;
++ devem ser criadas antes de serem utilizadas;
++ os elementos são separados por virgulas;
++ o primeiro elemento possui índice 1;
++ criando uma tabela vazia: `tabela_1 = {}`
+
+```
+> tabela_1 = {1, 3.1141516, 'A', "Lua"}
+> tabela_1
+table: 0x55c0c1e2c680
+> tabela_1[1]
+1
+> tabela_1[2]
+3.1141516
+> tabela_1[3]
+A
+> tabela_1[4]
+Lua
+> tabela_1[5]
+nil
+```
