@@ -157,3 +157,34 @@ nil
 > tab_2.t2
 5
 ```
+
+### Funções
+
++ tipo: *function*;
++ é possível armazenar:
+  + variáveis
+  + índices de tabelas
+  + parâmetros para outras funções
+  + retorno de funções
+
+Declarando a função:
+
+```
+function f(parâmetros)
+end
+```
+
+ ou
+
+```
+f = function(parâmetros)
+end
+```
+
+### Funções Pré-definidas
+
+### Bibliotecas - Expressões Regulares
+
+### Bibliotecas - Manipulação de Strings
+
+### Bibliotecas - Funções Matemáticas
