@@ -160,10 +160,21 @@ nil
 
 + tipo: *function*;
 + é possível armazenar:
-  + variáveis
-  + índices de tabelas
-  + parâmetros para outras funções
-  + retorno de funções
+  + variáveis;
+  + índices de tabelas;
+  + parâmetros para outras funções;
+  + retorno de funções;
+  + Lua atribui o valor *nil* para argumentos que foram ignorados;
+  + Se possui mais valores que argumentos, Lua desconsidera o excendete;
+  + quando não se sabe o número de argumentos, após o último é possível adicionar `...` desta forma, você estará dizendo que o número de argumentos é variável;
++ valores do tipo:
+   + *string* e *number* são passados por valor e possuem escopo local;
+   + *table*, *function* e *userdata* são passados por referência;
++ `return` deve ser a última instrução da função;
++ chamada da função:
+  + f(): para números
+  + f {}: para tabelas
+  + f "": para strings
 
 Declarando a função:
 
@@ -178,6 +189,17 @@ end
 f = function(parâmetros)
 end
 ```
+
+```
+l = {1,2}
+
+function exibe(a,b)
+   print(a+b)
+end
+
+exibe(l[1],l[2])
+```
+
 
 ### Funções Pré-definidas
 
