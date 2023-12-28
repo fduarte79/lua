@@ -200,6 +200,30 @@ end
 exibe(l[1],l[2])
 ```
 
+Exemplos:
+
+```
+s = 'programação com Lua'
+
+function exibe(arg)
+   print(arg)
+end
+
+exibe(s)
+```
+
+```
+s = {1, 3.4, 'programação com Lua'}
+
+
+function exibe(arg, ...)
+   print(arg[1])
+   print(arg[2])
+   print(arg[3])
+end
+
+exibe(s)
+```
 
 ### Funções Pré-definidas
 
