@@ -122,8 +122,6 @@ print(var)
 
 ### Tabelas
 
-### Tabelas
-
 + implementam vetores associativos;
 + valores de todos tipos exceto, *nil*;
 + principal estrutura de dados da Lua;
