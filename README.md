@@ -1,6 +1,8 @@
 # Programação LUA
 
-### Introduação
+---
+
+## Introduação
 + Linguagem de script;
 + mas pode ser executado no modo interativo;
 + execução: lua arquivo.lua;
@@ -30,7 +32,11 @@ Global: não precisa ser declarada
 Normal: `var_a = 3`  
 Múltipla: `var_a, var_b = 'Teste',  3.131415`  
 
-### Operadores Aritméticos
+---
+
+## Operadores
+
+###  Aritméticos
 `+`: soma  
 `-`: subtração  
 `*`: multiplicação  
@@ -55,7 +61,9 @@ Múltipla: `var_a, var_b = 'Teste',  3.131415`
 `<`, `<=`, `>`, `>=`: números e strings  
 `~=`, `==`: compara número e string e retorna *nil* se falso, *1* se verdadeiro  
 
-### Condicional
+---
+
+## Condicional
 + Se o condicional for verdadeiro, a cláusula é executada;
 + Se o condicional for falso, a cláusula não é executada e retorna *nil*.
 
@@ -99,7 +107,11 @@ else
 end
 ```
 
-### Laço de repetição While
+---
+
+## Laço de repetição
+
+#### While
 + o laço é executado enquanto a condicional for verdadeira
 ```
 var = 3
@@ -119,6 +131,8 @@ print(var)
 ```
 
 + a linguagem de programação *Lua* não possui laços de repetição `for`
+
+---
 
 ### Tabelas
 
@@ -156,7 +170,9 @@ nil
 5
 ```
 
-### Funções
+---
+
+## Funções
 
 + tipo: *function*;
 + é possível armazenar:
@@ -240,6 +256,8 @@ exibe(s)
 + `tinsert(t, i, v)`: insere um elemento
 + `tremove(t, i)`: remove o elemento da tabela
 + `sort(t, c)`: ordena os elementos de índice
+
+---
 
 ### Bibliotecas - Expressões Regulares
 
