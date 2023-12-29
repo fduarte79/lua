@@ -222,8 +222,16 @@ exibe(s)
 + `nextvar(arg)`: enumera as variáveis que tiverem o nome no argumento;
 + `type(arg)`: recebe uma variavel no argumento e retorna o seu tipo;
 + `tonunber(n, b)`: recebe um número *n* como argumento, e o converte para a base *b*;
-+ ``:
-+ ``:
++ `tostring(arg)`: recebe um argumento e o converte para string
++ `print(arg, ...)`: recebe uma lista de argumentos e exibe a saída padrão;
++ `assert(arg, msg)`: recebe um argumento e verifica se é diferente de *nil*, retorna o argumento *msg* como uma mensagem se for verdadeiro;
++ `()`:
++ `()`:
++ `()`:
++ `()`:
++ `()`:
++ `()`:
++ `()`:
 
 ### Bibliotecas - Expressões Regulares
 
