@@ -214,6 +214,14 @@ exibe(s)
 
 ### Funções Pré-definidas
 
+
++ **Conveções**:
+  + `a`: parametro genérico
+  + `t`: parametro tabela
+  + `i`: parametro índice
+  + `v`: parametro valor
+  + `c`: parametro comprimento 
+
 + `call(func, arg, [, mode])`: invoca uma função,passando os argumentos, e um parâmetro opciobal `p`, que empacota em uma tabela o retorno da invocação;
 + `loadfile`: carrega um arquivo;
 + `dofile(arg)`: recebe um nome de um arquivo como argumeto, abre e executa como um código
@@ -229,9 +237,9 @@ exibe(s)
 + `foreach(arg, func)`: executa ua função que foi passsada como argumento, sobre cada elemento da tabela. Se algum valor for **diferente(?)** de *nil*, o laço é quebrado
 + `foreachi(arg, func)`: executa uma função sobre cada elemento da tabela com índice numérico;
 + `foreachvar(func)`: executa uma função sobre todos as variáveis globais. Se a função retorna algum valor diferente de *nil*, o laço é quebrado e este retorna para a função invocada;
-+ `()`:
-+ `()`:
-+ `()`:
++ `tinsert(t, i, v)`: insere um elemento
++ `tremove(t, i)`: remove o elemento da tabela
++ `sort(t, c)`: ordena os elementos de índice
 
 ### Bibliotecas - Expressões Regulares
 
