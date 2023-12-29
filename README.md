@@ -225,8 +225,8 @@ exibe(s)
 + `tostring(arg)`: recebe um argumento e o converte para string
 + `print(arg, ...)`: recebe uma lista de argumentos e exibe a saída padrão;
 + `assert(arg, msg)`: recebe um argumento e verifica se é diferente de *nil*, retorna o argumento *msg* como uma mensagem se for verdadeiro;
-+ `()`:
-+ `()`:
++ `getn(arg)`: retorna o tamanho da tabela, passado como argumento;
++ `foreac(arg, func)`: executa ua função que foi passsada como argumento, sobre cada elemento da tabela. Se algum valor for **diferente(?)** de *nil*, o laço é quebrado
 + `()`:
 + `()`:
 + `()`:
