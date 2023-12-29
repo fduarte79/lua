@@ -221,7 +221,9 @@ exibe(s)
 + `next(table, i)`: retorna o próximo elemento da tabela com índice i;
 + `nextvar(arg)`: enumera as variáveis que tiverem o nome no argumento;
 + `type(arg)`: recebe uma variavel no argumento e retorna o seu tipo;
-+ 
++ `tonunber(n, b)`: recebe um número *n* como argumento, e o converte para a base *b*;
++ ``:
++ ``:
 
 ### Bibliotecas - Expressões Regulares
 
