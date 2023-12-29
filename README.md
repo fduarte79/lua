@@ -241,6 +241,8 @@ exibe(s)
   + `j`: primeiro índice
   + `k`: último índice
   + `n`: número inteiro
+  + `f`: formato
+  + `e`: expressão
 
 + `call(func, arg, [, mode])`: invoca uma função,passando os argumentos, e um parâmetro opciobal `p`, que empacota em uma tabela o retorno da invocação;
 + `loadfile`: carrega um arquivo;
@@ -266,6 +268,24 @@ exibe(s)
 + `strupper(s)`: cria uma cópia da string com todos os caracteres em caixa alta
 + `strrep(s, n)`: cria uma cópia e concatena a string *n* vezes
 + `ascii(s, i)`: informa o código ASCII do caractere da string e índice *i*
++ `format(f, e1, e2, ...)`: cria uma string com expressões exp1 e exp2, formatadas de acordo com o parâmetro f
+
++ Formatos aceitos:
+  + `%s`: string
+  + `%q`: string com delimitador
+  + `%c`: caractere
+  + `%d`: decimal
+  + `%i`: inteiro
+  + `%u`: modulo
+  + `%o`: octal
+  + `%x`: hexadecimal em caixa baixa
+  + `%X`: hexadecimal em caixa alta
+  + `%f`: real
+  + `%F`: real
+  + `%g`: real
+  + `%E`: expoente
+  + `%e`: expoente
+  + `%%`: caractere %
 
 ---
 
