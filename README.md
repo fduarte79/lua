@@ -214,6 +214,9 @@ exibe(s)
 
 ### Funções Pré-definidas
 
++ `loadfile`: carrega um arquivo
++ `dofile`: recebe um nome de um arquivo como argumeto, abre e executa
+
 ### Bibliotecas - Expressões Regulares
 
 ### Bibliotecas - Manipulação de Strings
