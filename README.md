@@ -226,9 +226,9 @@ exibe(s)
 + `print(arg, ...)`: recebe uma lista de argumentos e exibe a saída padrão;
 + `assert(arg, msg)`: recebe um argumento e verifica se é diferente de *nil*, retorna o argumento *msg* como uma mensagem se for verdadeiro;
 + `getn(arg)`: retorna o tamanho da tabela, passado como argumento;
-+ `foreac(arg, func)`: executa ua função que foi passsada como argumento, sobre cada elemento da tabela. Se algum valor for **diferente(?)** de *nil*, o laço é quebrado
-+ `()`:
-+ `()`:
++ `foreach(arg, func)`: executa ua função que foi passsada como argumento, sobre cada elemento da tabela. Se algum valor for **diferente(?)** de *nil*, o laço é quebrado
++ `foreachi(arg, func)`: executa uma função sobre cada elemento da tabela com índice numérico;
++ `foreachvar(func)`: executa uma função sobre todos as variáveis globais. Se a função retorna algum valor diferente de *nil*, o laço é quebrado e este retorna para a função invocada;
 + `()`:
 + `()`:
 + `()`:
