@@ -214,8 +214,14 @@ exibe(s)
 
 ### Funções Pré-definidas
 
-+ `loadfile`: carrega um arquivo
-+ `dofile`: recebe um nome de um arquivo como argumeto, abre e executa
++ `call(func, arg, [, mode])`: invoca uma função,passando os argumentos, e um parâmetro opciobal `p`, que empacota em uma tabela o retorno da invocação;
++ `loadfile`: carrega um arquivo;
++ `dofile(arg)`: recebe um nome de um arquivo como argumeto, abre e executa como um código
++ `dostring(arg)`: recebe uma string no argumento, e o executa como um código
++ `next(table, i)`: retorna o próximo elemento da tabela com índice i;
++ `nextvar(arg)`: enumera as variáveis que tiverem o nome no argumento;
++ `type(arg)`: recebe uma variavel no argumento e retorna o seu tipo;
++ 
 
 ### Bibliotecas - Expressões Regulares
 
