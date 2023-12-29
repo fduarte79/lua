@@ -236,7 +236,11 @@ exibe(s)
   + `t`: parametro tabela
   + `i`: parametro índice
   + `v`: parametro valor
-  + `c`: parametro comprimento 
+  + `c`: parametro comprimento
+  + `s`: agumento string
+  + `j`: primeiro índice
+  + `k`: último índice
+  + `n`: número inteiro
 
 + `call(func, arg, [, mode])`: invoca uma função,passando os argumentos, e um parâmetro opciobal `p`, que empacota em uma tabela o retorno da invocação;
 + `loadfile`: carrega um arquivo;
@@ -256,12 +260,16 @@ exibe(s)
 + `tinsert(t, i, v)`: insere um elemento
 + `tremove(t, i)`: remove o elemento da tabela
 + `sort(t, c)`: ordena os elementos de índice
++ `strlen(s)`: retorna o tamanho da string
++ `strsub(s,j,k)`: cria um vetor de string de *j* até *k*
++ `strlower(s)`: cria uma cópia da string com todos os carecteres em caixa baixa
++ `strupper(s)`: cria uma cópia da string com todos os caracteres em caixa alta
++ `strrep(s, n)`: cria uma cópia e concatena a string *n* vezes
++ `ascii(s, i)`: informa o código ASCII do caractere da string e índice *i*
 
 ---
 
 ### Bibliotecas - Expressões Regulares
-
-### Bibliotecas - Manipulação de Strings
 
 ### Bibliotecas - Funções Matemáticas
 
