@@ -291,6 +291,14 @@ exibe(s)
 
 ### Bibliotecas - Expressões Regulares
 
++ `%a`: letras
++ `%A`: tudo exceto de letras
++ `%A`: dígitos decimais
++ `%D`: tudo exceto dígitos
++ `%l`: letras minúsculas
+
+---
+
 ### Bibliotecas - Funções Matemáticas
 
 # Referências
