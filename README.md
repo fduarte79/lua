@@ -230,7 +230,6 @@ exibe(s)
 
 ### Funções Pré-definidas
 
-
 + **Conveções**:
   + `a`: parametro genérico
   + `t`: parametro tabela
@@ -244,6 +243,14 @@ exibe(s)
   + `f`: formato
   + `e`: expressão
 
++ `readfrom()`: abre/fecha um arquivo para leitura
++ `writeto()` : abre/fecha um arquivo para escrita
++ `appendto()`: abre um arquivo para escrita
++ `read()`: lê uma string do dispositivo de entrada
++ `write()`: recebe uma lista de argumentos e escreve no dispositivo de saída
++ `remove()`: apaga arquivos
++ `rename()`: renomeia arquivos
++ `tmpname()`: cria um arquivo temporário
 + `call(func, arg, [, mode])`: invoca uma função,passando os argumentos, e um parâmetro opciobal `p`, que empacota em uma tabela o retorno da invocação;
 + `loadfile`: carrega um arquivo;
 + `dofile(arg)`: recebe um nome de um arquivo como argumeto, abre e executa como um código
