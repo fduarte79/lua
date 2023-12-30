@@ -296,6 +296,15 @@ exibe(s)
 + `%A`: dígitos decimais
 + `%D`: tudo exceto dígitos
 + `%l`: letras minúsculas
++ `%L`: tudo exceto letras maiúsculas
++ `%s`: caracteres em branco
++ `%S`: tudo exceto caractere em branco
++ `%u`: letras maiúsculas
++ `%U`: tudo exceto letras maiúsculas
++ `%w`: caracteres alfanuméricos
++ `%W`: tudo exceto caracteres alfanuméricos
++ `[char-set]`: união de todos os caracteres de char-set
++ `[^char-set]`: complemento de char-set
 
 ---
 
